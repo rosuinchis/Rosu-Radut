@@ -1,0 +1,7 @@
+<launch>
+<node pkg="services_quiz" type="server_quiz.py" name="quiz_server" output="screen">
+</node>
+
+<include>
+
+</launch>

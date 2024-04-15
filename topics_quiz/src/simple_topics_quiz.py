@@ -10,7 +10,7 @@ def callback(msg):
     if msg.ranges[0] < 0.3:
       #stop turn right
       turn.linear.x = 0
-      turn.angular.z = 0.2
+      turn.angular.z = 0.7
       pub.publish(turn)
       time.sleep(2)
       turn.angular.z = 0
