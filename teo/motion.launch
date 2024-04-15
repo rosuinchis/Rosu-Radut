@@ -1,5 +1,0 @@
-<launch>
-<node pkg="services_pkg" type="simple_service_server2.py" name="service_server" output="screen">
-</node>
-
-</launch>
